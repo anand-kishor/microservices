@@ -1,0 +1,5 @@
+server.port=9092
+spring.application.name=myapp1
+spring.profiles.active=default
+
+spring.cloud.config.uri=localhost:9091

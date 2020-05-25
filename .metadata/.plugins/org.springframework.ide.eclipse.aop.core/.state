@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="spring-cloud-java-brains-1"/>
+<aop-project name="spring-cloud-config-server-priya-git"/>
+<aop-project name="spring-cloud-config-server"/>
+<aop-project name="spring-cloud-security-oauth2restTemplate"/>
+<aop-project name="JwtAuthenticationSecurity"/>
+<aop-project name="serializer-deserializer-kafka-producer"/>
+<aop-project name="kafka-producer-api"/>
+<aop-project name="boot-form-handling"/>
+<aop-project name="spring-cloud-task-priya"/>
+<aop-project name="spring-security-boot-sso"/>
+<aop-project name="spring-cloud-java-brains-2"/>
+<aop-project name="spring-cloud-config-server-priya"/>
+<aop-project name="spring-cloud-config-client"/>
+<aop-project name="spring-boot-thymleaf"/>
+<aop-project name="JwtAuthenticationSecurityMySQLAuthentication"/>
+<aop-project name="spring-boot-thymleaf-database-ui"/>
+<aop-project name="spring-cloud-security-authorization-server"/>
+<aop-project name="spring-cloud-security-git"/>
+<aop-project name="spring-cloud-security-resource-server"/>
+<aop-project name="spring-cloud-stream-kafka"/>
+<aop-project name="spring-cloud-security"/>
+<aop-project name="spring-cloud-java-brains-3-profiles"/>
+<aop-project name="spring-cloud-config-server-1"/>
+</aop-reference-model>

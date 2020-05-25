@@ -1,0 +1,11 @@
+server.port=8082
+#security configuration
+security.oauth2.client.client-id=8f75df75fdc0bf5c8a7a
+security.oauth2.client.client-secret=10b90a62ae01395e1469a7743b35b268eea39495
+security.oauth2.client.access-token-uri=https://github.com/login/oauth/access_token
+security.oauth2.client.user-authorization-uri=https://github.com/login/oauth/authorize
+security.oauth2.client.client-authentication-scheme=form
+security.oauth2.resource.user-info-uri=https://api.github.com/user
+security.oauth2.resource.prefer-token-info=false
+#8f75df75fdc0bf5c8a7a
+#10b90a62ae01395e1469a7743b35b268eea39495

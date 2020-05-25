@@ -1,0 +1,30 @@
+package com.anand.opps;
+
+class Parent {
+	public void m1()
+	{
+		System.out.println("parent");
+	}
+
+}
+class child extends Parent
+{
+public void m2()
+{
+System.out.println("child");	
+}
+}
+ class Test
+{
+	public static void main(String[] args) {
+		
+		Parent p=new Parent();
+		p.m1();
+		
+		
+		
+		
+	}
+
+	
+}

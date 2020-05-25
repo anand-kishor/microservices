@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=JwtAuthenticationSecurityMySQLAuthentication/C:\/Users\/Anand-PC\/.m2\/repository\/org\/springframework\/data\/spring-data-commons\/2.2.4.RELEASE\/spring-data-commons-2.2.4.RELEASE.jar&lt;org.springframework.data.repository(CrudRepository.class[CrudRepository" modifiers="1537" timestamp="1579552073176"/>
+<typeInfo handle="=kafka-producer-api/C:\/Users\/Anand-PC\/.m2\/repository\/org\/apache\/kafka\/kafka-clients\/2.4.0\/kafka-clients-2.4.0.jar&lt;org.apache.kafka.clients.producer(Partitioner.class[Partitioner" modifiers="1537" timestamp="1580044739895"/>
+<typeInfo handle="=serializer-deserializer-kafka-producer/C:\/Users\/Anand-PC\/.m2\/repository\/org\/apache\/kafka\/kafka-clients\/2.4.0\/kafka-clients-2.4.0.jar&lt;org.apache.kafka.common.serialization(Deserializer.class[Deserializer" modifiers="1537" timestamp="1580044739895"/>
+<typeInfo handle="=Java8LambadaBasics/src&lt;com.javabrains{Greeting.java[Greeting" modifiers="513" timestamp="1580307126121"/>
+<typeInfo handle="=spring-boot-thymleaf-database-ui/C:\/Users\/Anand-PC\/.m2\/repository\/org\/springframework\/spring-jdbc\/5.2.3.RELEASE\/spring-jdbc-5.2.3.RELEASE.jar&lt;org.springframework.jdbc.core(RowMapper.class[RowMapper" modifiers="1537" timestamp="1579552043787"/>
+<typeInfo handle="=Java8LambadaBasics/C:\/Program Files\/Java\/jre1.8.0_144\/lib\/rt.jar&lt;java.lang(Thread.class[Thread" modifiers="33" timestamp="1507475672492"/>
+<typeInfo handle="=Java8LambadaBasics/C:\/Program Files\/Java\/jre1.8.0_144\/lib\/rt.jar&lt;java.lang(Object.class[Object" modifiers="33" timestamp="1507475672492"/>
+<typeInfo handle="=Java8LambadaBasics/C:\/Program Files\/Java\/jre1.8.0_144\/lib\/rt.jar&lt;java.lang(ThreadGroup.class[ThreadGroup" modifiers="33" timestamp="1507475672492"/>
+</typeInfoHistroy>

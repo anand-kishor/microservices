@@ -1,0 +1,15 @@
+app:
+  name: my app
+  description: welcome to india
+my:
+  greeting: Hello word
+  list:
+      value: one,two,three,four
+
+db:
+   connection: test-connection-here
+   host: 127.0.0.1
+   port: 1200
+
+
+management.endpoints.web.exposure.include:*

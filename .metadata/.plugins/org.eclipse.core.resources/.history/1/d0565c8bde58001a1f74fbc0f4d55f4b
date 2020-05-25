@@ -1,0 +1,46 @@
+package com.example.conditionandlock;
+
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class TestConditionAndLock {
+	private Lock lock=new ReentrantLock();
+	private Condition conditionLock=lock.newCondition();
+	public void method1() throws InterruptedException 
+	{
+		lock.lock();
+		try {
+			conditionLock.await();
+			System.out.println("await method");
+		} finally {
+			lock.unlock();
+		}
+	    
+	}
+	public void method2()
+	{
+		lock.lock();
+		try {
+		conditionLock.signal();
+		System.out.println("signal method");
+	}
+	finally {
+		lock.unlock();
+	}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		TestConditionAndLock test=new TestConditionAndLock();
+				TestConditionAndLock test2=new TestConditionAndLock();
+				//test.method1();
+				//test2.method2();
+		Thread t1=new Thread();
+		Thread t2=new Thread();
+		t1.start();
+		t2.start();
+
+	}
+
+}

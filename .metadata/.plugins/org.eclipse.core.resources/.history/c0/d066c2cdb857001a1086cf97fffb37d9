@@ -1,0 +1,3 @@
+my.greeting=Hello word welcome to india
+#app.name=welcome to india ${my.greeting}
+my.list.value=one,two,three,four

@@ -1,0 +1,3 @@
+server.port=5050
+logging.level.org.springframework.cloud.task=DEBUG
+spring.cloud.task.name=GreetingTask

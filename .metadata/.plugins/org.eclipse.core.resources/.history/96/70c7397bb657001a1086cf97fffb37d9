@@ -1,0 +1,2 @@
+my.greeting=Hello word welcome to india
+app.name=welcome to india ${my.greeting}

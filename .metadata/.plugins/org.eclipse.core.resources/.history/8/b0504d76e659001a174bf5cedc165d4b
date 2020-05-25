@@ -1,0 +1,3 @@
+server.port=9090
+spring.profiles.active=native
+spring.cloud.config.server.native.search-locations=classpath:/config,classpath:/app1,classpath:/app2

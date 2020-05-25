@@ -1,0 +1,10 @@
+my.greeting=Hello word welcome to india
+#app.name=welcome to india ${my.greeting}
+my.list.value=one,two,three,four
+dbValues={connetingString:'http://...',username:'root',password:'root'}
+db.connection={connetingString:'http://...',username:'root',password:'root'}
+db.host=127.0.0.1
+db.port=1200
+
+#actuator
+management.endpoints.web.exposure.include=*

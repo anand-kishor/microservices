@@ -1,0 +1,57 @@
+package com.example.task;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.task.configuration.EnableTask;
+import org.springframework.cloud.task.listener.TaskExecutionListener;
+import org.springframework.cloud.task.repository.TaskExecution;
+import org.springframework.cloud.task.repository.support.SimpleTaskRepository;
+import org.springframework.context.annotation.Bean;
+
+@SpringBootApplication
+@EnableTask
+public class SpringCloudTaskPriyaApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringCloudTaskPriyaApplication.class, args);
+	}
+		@Bean
+		public GreetingTask task()
+		{
+			return new GreetingTask();
+		}
+	
+	
+	static class GreetingTask implements CommandLineRunner,TaskExecutionListener{
+
+		@Override
+		public void run(String... args) throws Exception {
+			// TODO Auto-generated method stub
+			
+			System.out.println("Hello anand "+args[0]);
+		}
+
+		@Override
+		public void onTaskStartup(TaskExecution taskExecution) {
+			// TODO Auto-generated method stub
+			System.out.println("task is startup");
+			
+		}
+
+		@Override
+		public void onTaskEnd(TaskExecution taskExecution) {
+			// TODO Auto-generated method stub
+			System.out.println("task is end");
+		}
+
+		@Override
+		public void onTaskFailed(TaskExecution taskExecution, Throwable throwable) {
+			// TODO Auto-generated method stub
+			System.out.println("task is faield");
+		}
+		
+		
+	}
+
+}

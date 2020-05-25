@@ -1,0 +1,14 @@
+package com.anand.opps;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Parent p=new Parent();
+		p.m1();
+		Child c=new Child();
+		p.m2();
+
+	}
+
+}

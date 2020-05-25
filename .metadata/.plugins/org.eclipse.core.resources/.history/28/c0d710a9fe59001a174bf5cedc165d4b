@@ -1,0 +1,30 @@
+package com.example.client.controller;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ClientController {
+	@Value("${name}")
+	 String name;
+	@Value("${home}")
+	 String home;
+	@Value("${city}")
+	 String city;
+	@RequestMapping(value="/app",method=RequestMethod.GET)
+	public String getMessage()
+	{
+		//System.out.println("name of  condidate :"+name+" "+home+" "+city);
+		Map<String,String> map=new HashMap<>();
+		map.put("name", name);
+		map.put("home", name);
+		map.put("city", name);
+		return map.toString();
+	}
+
+}
